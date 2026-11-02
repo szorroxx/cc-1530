@@ -8,7 +8,7 @@ public class CommitCafe {
     public static void brew(String drink) {
         cups++;
         System.out.println("CoffeeBot brewed " + drink + ". Hotfixes and hot brews keep production alive.");
-        // STUDENT_TODO_2B: Add a second brew-related improvement
+        System.out.println("[BOT CHECK] drink length = " + drink.length());
     }
 
     public static void printSummary() {
